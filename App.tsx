@@ -23,17 +23,17 @@ export default function App() {
   const popIn = () => {
     setPop(true);
     Animated.timing(iconOne, {
-      toValue: 100,
+      toValue: 110,
       duration: 400,
       useNativeDriver: false,
     }).start();
     Animated.timing(iconTwo, {
-      toValue: 150,
+      toValue: 162,
       duration: 400,
       useNativeDriver: false,
     }).start();
     Animated.timing(iconThree, {
-      toValue: 200,
+      toValue: 214,
       duration: 400,
       useNativeDriver: false,
     }).start();
